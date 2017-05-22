@@ -1,0 +1,86 @@
+/*====================================
+=            COLOR yellow            =
+====================================*/
+/*
+yellow
+f7c723
+dfae08
+*/
+
+
+.bg-shop {
+  background-color: #f7c723;
+}
+
+a {
+	color: #f7c723;
+}
+a:hover {
+  color: #dfae08;
+
+}
+
+#hero .hero-start-link:hover,
+#hero .hero-start-link:focus:hover {
+  color: #f7c723;
+}
+
+.color-text {
+	color: #f7c723;
+}
+.btn {
+	background: #f7c723;
+	-webkit-box-shadow: 0 4px 0 #dfae08;
+	-moz-box-shadow: 0 4px 0 #dfae08;
+	box-shadow: 0 4px 0 #dfae08;
+}
+
+.numbers-1 h2 {
+  color: #f7c723;
+}
+.features-1 article .zoom-img {
+  border: 6px solid #f7c723;
+}
+
+.back-to-top {
+	background: #f7c723;
+}
+
+.social-links-2 li a:hover {
+	color: #202020;
+	background:#f7c723;
+	border-color: #f7c723;
+}
+#menu-link:hover .menu-icon{
+    background-color: #f7c723;
+} 
+#menu-link.is-clicked{
+    background-color: #f7c723;
+}
+.myform .form-control:focus,
+.myform textarea.inputError:focus,
+.input-group .form-control:focus {
+	border: 2px solid #f7c723;
+}
+.hero-start-link:hover {
+	color:#f7c723;
+}
+.overlay nav ul li a:after {
+    background: #f7c723;
+}
+.close-modal:hover {
+  background-color: #f7c723;
+}
+.zoom-img  {
+	border: 6px solid #f7c723;
+}
+
+.bg-image-2 {
+  background-color: #f7c723;
+}
+.footer-1 .back-to-top {
+    background: #f7c723;
+}
+/*-----  End of COLOR yellow  ------*/
+
+
