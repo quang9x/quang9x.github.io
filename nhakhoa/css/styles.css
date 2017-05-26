@@ -878,6 +878,7 @@ footer a:hover {
     height: 250px;
 }
 .panel.panel-primary{
+  z-index: 99;
     width: 300px;
     position: fixed;
     bottom: -24px;
