@@ -1,0 +1,499 @@
+<html>
+<head>
+        <meta charset="utf-8">
+        <title>Nha khoa thẩm mỹ</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content="Nha Khoa">
+
+        <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" type="text/css" >
+        <link rel="stylesheet" href="css/jquery.scrolltop.css">
+        <link href="css/owl.carousel.css" rel="stylesheet" type="text/css" >
+        <link rel="stylesheet" href="css/styles.css" />
+    </head> 
+
+    <body> 
+
+        <header class="main-header">
+
+            <section>
+
+
+                <div class="header-top" id="top">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-4 col-sm-12 logo">
+                                    <a href="index.html">
+                                        <img src="img/logo.png" alt="Logo">
+                                    </a>
+                            </div>
+                            <div class="col-md-8 hidden-sm hidden-xs">
+
+                                <div class="row">
+                                    <div class="col-md-4">
+                                        <div class="icon-box">
+                                            <div class="icon-container">
+                                                <span class="fa fa-home"></span>
+                                            </div>
+                                            <div class="text">
+                                                <span class="head-heading">Địa chỉ</span>
+                                                <span class="head-content">38 Nguyễn Du, Hà Nội</span>
+                                            </div>
+                                        </div>
+                                    </div>                                        
+
+                                    <div class="col-md-4">
+                                        <div class="icon-box">
+                                            <div class="icon-container">
+                                                <i class="fa fa-clock-o"></i>
+                                            </div>
+                                            <div class="text">
+                                                <span class="head-heading">Thứ 2 - Thứ 7</span>
+                                                <span class="head-content">9h - 20h </span>
+                                            </div>
+                                        </div>
+                                    </div>                                                                                
+
+                                    <div class="col-md-4">
+                                        <div class="icon-box">
+                                            <div class="icon-container">
+                                                <i class="fa fa-mobile"></i>
+                                            </div>
+                                            <div class="text">
+                                                <span class="head-heading">Liên hệ</span>
+                                                <span class="head-content">19006900</span>
+                                            </div>
+                                        </div>
+                                    </div><!-- end col-md-4  -->
+
+                                </div> <!-- end row  -->
+
+                            </div><!-- end col-md-8  -->
+
+                        </div><!-- end row  -->
+                    </div><!-- end container  -->                
+
+                </div><!-- end header-top  -->
+
+
+                <div class="navbar navbar-default">			
+                    <div class="container clearfix">
+                        <div class="navbar-collapse collapse pull-left">
+                            <ul class="nav navbar-nav">
+                                <li>
+                                    <a href="index.html">Trang chủ</a>
+                                </li>
+                                
+                                <li>
+                                    <a href="gioi-thieu.html">Giới thiệu</a>
+                                    <ul class="drop-down hidden-xs hidden-sm">
+                                        <li><a href="doi-ngu-bac-si.html">Đội ngũ bác sĩ</a></li>
+                                        <li><a href="co-so-vat-chat.html">Cơ sở vật chất</a></li>
+                                    </ul>
+                                </li>                                
+                                
+                                <li>
+                                    <a href="dich-vu.html">Dịch vụ</a>
+                                </li>
+                                
+                                <li><a href="bang-gia.html">Bảng giá</a>
+                                </li>
+
+                                <li>
+                                    <a href="tin-tuc.html">Tin tức</a>
+                                </li>
+
+                                <li><a href="hinh-anh-khach-hang.html">Thư viện ảnh</a></li>
+                                <li><button type="button" class="btn btn-lg" data-toggle="modal" data-target="#myModal">Đặt lịch hẹn</button></li>
+                            </ul> <!-- end .nav .navbar-nav  -->
+                        </div>
+                        <div class="navbar-header pull-right">
+                            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                            </button>
+                        </div>
+                    </div> <!-- end .container  -->
+                </div> <!-- end .navbar .navbar-default  --> 
+
+            </section>
+
+
+        </header> <!-- end main-header  -->
+        <ol class="breadcrumb">
+                  <li><a href="index.html">Trang chủ</a></li>
+                  <li><a href="gioi-thieu.html">Giới thiệu</a></li>
+                  <li><a href="#">Dịch vụ nha khoa</a></li>
+        </ol>
+        <div class="modal fade" id="myModal" role="dialog">
+                <div class="modal-dialog">
+                
+                  <!-- Modal content-->
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <button type="button" class="close" data-dismiss="modal">&times;</button>
+                      <h4 class="modal-title text-center">Đặt lịch hẹn</h4>
+                    </div>
+                    <div class="modal-body">
+                        <form>
+                          <div class="form-group">
+                            <label for="">Họ tên:</label>
+                            <input type="text" class="form-control" id="">
+                          </div>
+                          <div class="form-group">
+                            <label for="">Số điện thoại:</label>
+                            <input type="text" class="form-control" id="">
+                          </div>
+                          <div class="form-group">
+                            <label for="">Dịch vụ:</label>
+                            <input type="text" class="form-control" id="" placeholder="VD: Trám răng, niềng răng,...">
+                          </div>
+                          <div class="form-group">
+                            <label for="">Ngày giờ hẹn:</label>
+                            <input type="text" class="form-control" id="">
+                          </div>
+                          <button type="submit" class="btn btn-success">Đặt lịch</button>
+                        </form>
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                    </div>
+                  </div>
+                  
+                </div>
+              </div>
+        <!--Left Navbar-->
+        <div class="container-fluid">
+        <div class="row">
+        <!-- TEAM SECTION-->
+            <div class="col-md-9 col-md-push-3">
+                <div class="detail">
+                    <h3>Dịch vụ nha khoa</h3>
+                    <div class="row">
+                    <div class="col-xs-12 col-sm-4">
+                        <div class="carbox">
+                            <img src="img/ctdv3.jpg" />
+                            <div class="carbox-content">
+                                <h4 class="carbox-title">
+                                    <a href="chi-tiet-dich-vu.html">Trám răng thẩm mỹ</a>
+                                </h4>
+                                <p class="">
+                                    Trám răng thẩm mỹ là một giải pháp hoàn hảo giúp phục hồi răng về cả phương diện chức năng và thẩm mỹ
+                                </p>
+                                <a href="chi-tiet-dich-vu.html" class="btn-chi-tiet">Xem chi tiết</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-sm-4">
+                        <div class="carbox">           
+                            <img src="img/ctdv2.jpg" />
+                            <div class="carbox-content">
+                                <h4 class="carbox-title">
+                                    <a href="#">TRỒNG RĂNG IMPLANT</a>
+                                </h4>
+                                <p class="">  
+                                    Implant là những trụ kim loại đặt vào xương hàm bằng phẫu thuật để nha sĩ sẽ lắp phần răng giả 
+                                </p>
+                                <a href="chi-tiet-dich-vu.html" class="btn-chi-tiet">Xem chi tiết</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-sm-4">
+                        <div class="carbox">
+                            <img src="img/ctdv1.jpg">
+                            <div class="carbox-content">
+                                <h4 class="carbox-title">
+                                    <a href="#">Bọc răng sứ</a>
+                                </h4>
+                                <p class="">
+                                    Bọc răng sứ là một phương pháp làm răng giả, có màu sắc và hình dáng giống với chiếc răng thật
+                                </p>
+                                <a href="chi-tiet-dich-vu.html" class="btn-chi-tiet">Xem chi tiết</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-xs-12 col-sm-4">
+                        <div class="carbox">
+                            <img src="img/ctdv3.jpg" />
+                            <div class="carbox-content">
+                                <h4 class="carbox-title">
+                                    <a href="chi-tiet-dich-vu.html">Trám răng thẩm mỹ</a>
+                                </h4>
+                                <p class="">
+                                    Trám răng thẩm mỹ là một giải pháp hoàn hảo giúp phục hồi răng về cả phương diện chức năng và thẩm mỹ
+                                </p>
+                                <a href="chi-tiet-dich-vu.html" class="btn-chi-tiet">Xem chi tiết</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-sm-4">
+                        <div class="carbox">           
+                            <img src="img/ctdv2.jpg" />
+                            <div class="carbox-content">
+                                <h4 class="carbox-title">
+                                    <a href="#">TRỒNG RĂNG IMPLANT</a>
+                                </h4>
+                                <p class="">  
+                                    Implant là những trụ kim loại đặt vào xương hàm bằng phẫu thuật để nha sĩ sẽ lắp phần răng giả 
+                                </p>
+                                <a href="chi-tiet-dich-vu.html" class="btn-chi-tiet">Xem chi tiết</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-sm-4">
+                        <div class="carbox">
+                            <img src="img/ctdv1.jpg">
+                            <div class="carbox-content">
+                                <h4 class="carbox-title">
+                                    <a href="#">Bọc răng sứ</a>
+                                </h4>
+                                <p class="">
+                                    Bọc răng sứ là một phương pháp làm răng giả, có màu sắc và hình dáng giống với chiếc răng thật
+                                </p>
+                                <a href="chi-tiet-dich-vu.html" class="btn-chi-tiet">Xem chi tiết</a>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                <ul class="pagination pagination-large text-center">
+                        <li class="disabled"><span>«</span></li>
+                        <li class="active"><span>1</span></li>
+                        <li><a href="#">2</a></li>
+                        <li><a href="#">3</a></li>
+                        <li class="disabled"><span>...</span></li>
+                        <li><a href="#">7</a></li>
+                        <li><a href="#">8</a></li>
+                        <li><a href="#" rel="next">»</a></li>
+                    </ul>
+
+
+            </div>
+        </div>
+
+        <div class="col-md-3 col-md-pull-9">
+            <br>
+                <div class="list-group">
+                    <h4>Tin tức khác</h4>
+                      <ul>
+                        <li><a href='#' class="list-group-item">Hình ảnh khách bọc răng sứ thẩm mỹ</a></li>
+                        <li><a href='#' class="list-group-item">Cấy ghép răng Implant cho người già</a></li>
+                        <li><a href='#' class="list-group-item">Trám răng thẩm mỹ hết bao nhiêu tiền</a></li>
+                        <li><a href='#' class="list-group-item">Tẩy trắng răng có ê buốt không?</a></li>
+                      </ul>
+                </div><br>
+            </div>
+
+
+                        
+        </div>
+        </div>
+
+
+        <div class="container-fluid">
+            <div class="section-content-block section-secondary-bg section-tintuc">
+                <div class="row">
+                    <div class="col-xs-12 col-sm-5 col-md-5 col-md-offset-1 col-sm-offset-1">
+                        <div class="icon-left">
+                          <h2 class="section-heading">Tin tức</h2>
+                        </div>
+                        <div class="frame">
+                            <img src="img/tintuc1.jpg" class="img-responsive">
+                        </div> <br>
+                        <div class="tintuc">
+                        <h4>Nha khoa Paris hợp tác với nước ngoài</h4>
+                            <li><a href="chi-tiet-tin-tuc.html">Nên làm gì khi mọc răng khôn</a></li>
+                            <li><a href="chi-tiet-tin-tuc.html">Người lớn có chỉnh nha được không ?</a></li>
+                            <li><a href="chi-tiet-tin-tuc.html">Cấy ghép Implant hết bao nhiêu tiền?</a></li>
+                            <li><a href="chi-tiet-tin-tuc.html">Cách nhổ răng khôn an toàn, không gây viêm nhiễm</a></li>
+                            </div>
+                    </div>
+                    <div class="col-xs-12 col-sm-5 col-md-5 ">
+                        <div class="icon-left">
+                          <h2 class="section-heading">Hình ảnh</h2>
+                        </div>
+                        <div class="frame">
+                            <img src="img/truocsau.jpg" class="img-responsive">
+                        </div> <br>
+                        <div class="tintuc">
+                        <h4>Khách hàng tại nha khoa Paris</h4>
+                            <li><a href="chi-tiet-tin-tuc.html">Hình ảnh niềng răng</a></li>
+                            <li><a href="chi-tiet-tin-tuc.html">Hình ảnh trồng răng Implant</a></li>
+                            <li><a href="chi-tiet-tin-tuc.html">Hình ảnh bọc sư thẩm mỹ</a></li>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        
+
+        
+
+        <footer>
+            <!--  FOOTER WIDGET AREA -->
+
+            <section class="footer-widget-area footer-widget-area-bg">
+
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-4 col-md-4 col-sm-12">
+
+                            <div class="footer-widget">
+
+                                <div class="sidebar-widget-wrapper">                                         
+
+                                    <div class="textwidget">
+
+                                        <img src="img/logo.png" />
+
+                                        <p>
+                                            Nha khoa Thẩm Mỹ Paris là một trong những phòng khám nha khoa uy tín nhất tại Hà Nội.
+                                        </p>  
+
+
+                                        <div class="social-icons clearfix">
+
+                                            <a href="#">
+                                                <i class="fa fa-facebook"></i>
+                                            </a>
+
+                                            <a href="#">
+                                                <i class="fa fa-twitter"></i>
+                                            </a>
+
+                                            <a href="#">
+                                                <i class="fa fa-instagram"></i>
+                                            </a>
+
+                                            <a href="#">
+                                                <i class="fa fa-linkedin"></i>
+                                            </a>
+
+                                            <a href="#">
+                                                <i class="fa fa-pinterest"></i>
+                                            </a>
+
+                                        </div>   
+                                    </div>
+
+                                </div> <!-- end footer-widget-wrapper  -->
+
+                            </div> <!--  end footer-widget  -->
+
+                        </div> <!--  end col-md-3 col-sm-6 -->
+
+
+                        <div class="col-lg-4 col-md-4 col-sm-12">
+
+                            <div class="footer-widget">
+
+                                <div class="sidebar-widget-wrapper">
+
+                                    <div class="footer-widget-header clearfix">
+                                        <h3>Liên hệ</h3>
+                                    </div>                                     
+
+                                    <div class="textwidget contact-details">                                       
+
+
+                                        <i class="fa fa-location-arrow fa-contact"></i> <p>38 Nguyễn Du - Hà Nội</p>
+
+                                        <i class="fa fa-phone fa-contact"></i> <p>Tổng đài: 1900 6466</p>                                                                               
+                                        <i class="fa fa-fax fa-contact"></i>  <p>Hotline: 098 555 9999</p> 
+                                    </div>
+
+                                </div> <!-- end footer-widget-wrapper  -->
+
+                            </div> <!--  end footer-widget  -->
+
+                        </div> <!--  end col-md-3 col-sm-6 -->                        
+
+
+                        <div class="col-lg-4 col-md-4 col-sm-12">
+
+                            <div class="footer-widget">
+                                <div class="sidebar-widget-wrapper">
+                                    <div class="footer-widget-header clearfix">
+                                        <h3>Hỗ trợ khách hàng</h3>
+                                    </div>
+                                    <li><a href="chi-tiet-tin-tuc.html">Góp ý</a></li>
+                                    <li><a href="chi-tiet-tin-tuc.html">Câu hỏi thường gặp</a></li>
+                                    <li><a href="chi-tiet-tin-tuc.html">Chính sách bảo hàng</a></li>
+                                    <li><a href="chi-tiet-tin-tuc.html">Quyền lợi khách hàng</a></li>
+                                </div>
+                            </div>            
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </section>
+            <div class="panel panel-primary">
+                        <div class="panel-heading" id="accordion">
+                            <span class="glyphicon glyphicon-comment" style="padding-right: 10px;"></span>Chat với chúng tôi
+                            <div class="btn-group pull-right">
+                                <a type="button" class="btn btn-default btn-xs" data-toggle="collapse" data-parent="#accordion" href="#collapseOne">
+                                    <span class="glyphicon glyphicon-chevron-down"></span>
+                                </a>
+                            </div>
+                        </div>
+                    <div class="panel-collapse collapse" id="collapseOne">
+                    <div class="panel-body">
+                        <ul class="chat">
+                            <li class="left clearfix">
+                                <div class="chat-body clearfix">
+                                    <div class="header">
+                                        <strong class="primary-font">Tư vấn viên</strong> <small class="pull-right text-muted">
+                                            <span class="glyphicon glyphicon-time"></span>12 mins ago</small>
+                                    </div>
+                                    <p>
+                                        Xin chào, tôi có thể giúp gì cho bạn?
+                                    </p>
+                                </div>
+                            </li>
+                            <li class="left clearfix">
+                                <div class="chat-body clearfix">
+                                    <div class="header">
+                                        <strong class="primary-font">Tôi</strong> <small class="pull-right text-muted">
+                                            <span class="glyphicon glyphicon-time"></span>12 mins ago</small>
+                                    </div>
+                                    <p>
+                                        Cho mình hỏi về dịch vụ trám răng thẩm mỹ?
+                                    </p>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="panel-footer">
+                        <div class="input-group">
+                            <input id="btn-input" type="text" class="form-control input-sm" placeholder="Nhập tin nhắn vào đây" />
+                            <span class="input-group-btn">
+                                <button class="btn btn-warning btn-sm" id="btn-chat">
+                                    Gửi</button>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+                </div>
+            
+        </footer>
+
+
+        
+        
+        
+        <script src="js/jquery.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/owl.carousel.min.js"></script>
+        <script src="js/jquery.scrolltop.js"></script>
+        <script src="js/script.js"></script>
+
+
+    </body>
+
+</html>

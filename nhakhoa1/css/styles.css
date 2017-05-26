@@ -177,6 +177,9 @@ a.btn-load-more:hover {
   background: #333;
   margin-bottom: 0px;
 }
+.navbar-default .navbar-collapse {
+  padding: 0px;
+}
 .navbar-default .navbar-nav > li > a {
   color: #FFF;
   font-size: 13px;
@@ -871,15 +874,15 @@ footer a:hover {
 
 .panel-body
 {
+    overflow-y: scroll;
     height: 250px;
-    overflow: auto;
 }
 .panel.panel-primary{
-    z-index:99;
+  z-index: 99;
     width: 300px;
     position: fixed;
-    bottom: -20px;
-    right: 16px;
+    bottom: -24px;
+    right:15px;
 }
 
 ::-webkit-scrollbar-track
@@ -989,4 +992,12 @@ footer a:hover {
     margin-bottom: 5px !important;
   }
 
+}
+@media only screen and (min-device-width: 1024px) and (max-device-width:1366px ) and (orientation: portrait){
+  .panel.panel-primary{
+    width: 300px;
+    position: fixed;
+    bottom: 200px;
+    right: 0;
+  }
 }
